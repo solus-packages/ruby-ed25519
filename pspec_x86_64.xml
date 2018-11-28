@@ -1,0 +1,130 @@
+<PISI>
+    <Source>
+        <Name>ruby-ed25519</Name>
+        <Packager>
+            <Name>Philipp Trulson</Name>
+            <Email>philipp@trulson.de</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.ruby</PartOf>
+        <Summary xml:lang="en">RubyGem - ed25519</Summary>
+        <Description xml:lang="en">A Ruby binding to the Ed25519 elliptic curve public-key signature system described in RFC 8032.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ruby-ed25519</Name>
+        <Summary xml:lang="en">RubyGem - ed25519</Summary>
+        <Description xml:lang="en">A Ruby binding to the Ed25519 elliptic curve public-key signature system described in RFC 8032.
+</Description>
+        <PartOf>programming.ruby</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0/ed25519-1.2.4/ed25519_ref10.so</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0/ed25519-1.2.4/gem.build_complete</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0/ed25519-1.2.4/gem_make.out</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/.gitignore</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/.rspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/.rubocop.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/.travis.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/CHANGES.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/CODE_OF_CONDUCT.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/Gemfile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/LICENSE</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/appveyor.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ed25519.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ed25519.png</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/LICENSE.txt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/EdDSAEngine.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/EdDSAKey.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/EdDSAPrivateKey.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/EdDSAPublicKey.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/EdDSASecurityProvider.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/KeyFactory.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/KeyPairGenerator.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/Utils.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/math/Constants.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/math/Curve.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/math/Encoding.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/math/Field.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/math/FieldElement.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/math/GroupElement.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/math/ScalarOps.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/math/bigint/BigIntegerFieldElement.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/math/bigint/BigIntegerLittleEndianEncoding.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/math/bigint/BigIntegerScalarOps.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/math/bigint/package.html</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/math/ed25519/Ed25519FieldElement.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/math/ed25519/Ed25519LittleEndianEncoding.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/math/ed25519/Ed25519ScalarOps.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/spec/EdDSAGenParameterSpec.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/spec/EdDSANamedCurveSpec.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/spec/EdDSANamedCurveTable.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/spec/EdDSAParameterSpec.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/spec/EdDSAPrivateKeySpec.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/net/i2p/crypto/eddsa/spec/EdDSAPublicKeySpec.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_jruby/org/cryptorb/Ed25519Provider.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/.RUBYARCHDIR.time</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/Makefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/api.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/base.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/base2.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/d.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/d2.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/ed25519_ref10.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/ed25519_ref10.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/ed25519_ref10.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/ed25519_ref10.so</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/extconf.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/fe.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/fe.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/fe.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/ge.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/ge.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/ge.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/ge_add.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/ge_madd.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/ge_msub.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/ge_p2_dbl.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/ge_sub.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/keypair.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/keypair.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/open.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/open.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/pow22523.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/pow225521.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/sc.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/sc_muladd.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/sc_muladd.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/sc_reduce.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/sc_reduce.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/sha512.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/sha512.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/sha512.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/sign.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/sign.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/sqrtm1.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/verify.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/ext/ed25519_ref10/verify.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/lib/ed25519.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/lib/ed25519/signing_key.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/lib/ed25519/verify_key.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/lib/ed25519/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/ed25519-1.2.4/lib/ed25519_ref10.so</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/specifications/ed25519-1.2.4.gemspec</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-11-28</Date>
+            <Version>1.2.4</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Philipp Trulson</Name>
+            <Email>philipp@trulson.de</Email>
+        </Update>
+    </History>
+</PISI>
