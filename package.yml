@@ -1,6 +1,6 @@
 name       : ruby-ed25519
 version    : 1.2.4
-release    : 2
+release    : 3
 source     :
     - https://rubygems.org/downloads/ed25519-1.2.4.gem : dc62c3491e9484d566519ab2bfca1406c7527694c902e6d05074c3a33ecab3b8
 license    : MIT
